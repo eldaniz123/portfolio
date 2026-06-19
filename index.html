@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Портфолио — Эльданиз</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .header h1 { font-size: 48px; margin: 0; }
+    .skills { text-align: center; padding: 40px; }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .skill {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+    .projects { text-align: center; padding: 40px; }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    button {
+      background-color: #2980b9;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Эльданиз</h1>
+  <p>Начинающий веб-разработчик</p>
+</div>
+
+<div class="skills">
+  <h2>Мои навыки</h2>
+  <div class="container">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+  </div>
+</div>
+
+<div class="projects">
+  <h2>Мои проекты</h2>
+  <div class="container">
+    <div class="card">
+      <h3>Визитка</h3>
+      <p>Личная страница с счётчиком</p>
+      <button>Смотреть</button>
+    </div>
+    <div class="card">
+      <h3>Проект 2</h3>
+      <p>Скоро...</p>
+      <button>Смотреть</button>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Написать мне: eldaniz@gmail.com</p>
+</div>
+
+</body>
+</html>
+git add .
+git commit -m "my portfolio"
+git push
